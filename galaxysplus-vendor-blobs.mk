@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
 
 # Firmware
 PRODUCT_COPY_FILES += \
-	vendor/samsung/galaxysplus/proprietary/bin/BCM4329B1_002.002.023.0746.0000_SS_S1-plus-38_4MHz-TEST-ONLY.hcd:system/etc/firmware/bcm4329.hcd \
+	vendor/samsung/galaxysplus/proprietary/bin/BCM4329B1_002.002.023.0746.0000_SS_S1-plus-38_4MHz-TEST-ONLY.hcd:system/bin/BCM4329B1_002.002.023.0746.0000_SS_S1-plus-38_4MHz-TEST-ONLY.hcd \
 	vendor/samsung/galaxysplus/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
 	vendor/samsung/galaxysplus/proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
 	vendor/samsung/galaxysplus/proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
@@ -119,12 +119,11 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_COPY_FILES += \
-	vendor/samsung/galaxysplus/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/firmware/bcm4329_aps.bin \
-	vendor/samsung/galaxysplus/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/firmware/bcm4329_sta.bin \
-	vendor/samsung/galaxysplus/proprietary/etc/wifi/bcm4329_mfg.bin:system/etc/firmware/bcm4329_mfg.bin \
+	vendor/samsung/galaxysplus/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin \
+	vendor/samsung/galaxysplus/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin \
+	vendor/samsung/galaxysplus/proprietary/etc/wifi/bcm4329_mfg.bin:system/etc/wifi/bcm4329_mfg.bin \
 	vendor/samsung/galaxysplus/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-	vendor/samsung/galaxysplus/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-	vendor/samsung/galaxysplus/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf 
+	vendor/samsung/galaxysplus/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt
 
 # TV-Out
 PRODUCT_COPY_FILES += \
