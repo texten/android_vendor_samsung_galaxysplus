@@ -14,11 +14,6 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-vendor/samsung/galaxysplus/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-vendor/samsung/galaxysplus/proprietary/lib/libcamera.so:obj/lib/libcamera.so
-
-#
-PRODUCT_COPY_FILES += \
 vendor/samsung/galaxysplus/proprietary/bin/btld:system/bin/btld \
 vendor/samsung/galaxysplus/proprietary/bin/gpsd:system/bin/gpsd \
 vendor/samsung/galaxysplus/proprietary/bin/hdmid:system/bin/hdmid \
