@@ -17,11 +17,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxysplus/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
-#
+#124
 PRODUCT_COPY_FILES += \
-	vendor/samsung/galaxysplus/proprietary/etc/register_data.xml:system/etc/register_data.xml \
 	vendor/samsung/galaxysplus/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
 	vendor/samsung/galaxysplus/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
+	vendor/samsung/galaxysplus/proprietary/etc/register_data.xml:system/etc/register_data.xml \
 	vendor/samsung/galaxysplus/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	vendor/samsung/galaxysplus/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
@@ -31,25 +31,24 @@ PRODUCT_COPY_FILES += \
 # Binaries
 PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxysplus/proprietary/bin/btld:system/bin/btld \
+	vendor/samsung/galaxysplus/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+	vendor/samsung/galaxysplus/proprietary/bin/geomagneticd:system/bin/geomagneticd \
 	vendor/samsung/galaxysplus/proprietary/bin/gpsd:system/bin/gpsd \
 	vendor/samsung/galaxysplus/proprietary/bin/hdmid:system/bin/hdmid \
+	vendor/samsung/galaxysplus/proprietary/bin/hostapd:system/bin/hostapd \
+	vendor/samsung/galaxysplus/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
 	vendor/samsung/galaxysplus/proprietary/bin/immvibed:system/bin/immvibed \
+	vendor/samsung/galaxysplus/proprietary/bin/logwrapper:system/bin/logwrapper \
 	vendor/samsung/galaxysplus/proprietary/bin/macloader:system/bin/macloader \
 	vendor/samsung/galaxysplus/proprietary/bin/mfgloader:system/bin/mfgloader \
 	vendor/samsung/galaxysplus/proprietary/bin/netmgrd:system/bin/netmgrd \
-	vendor/samsung/galaxysplus/proprietary/bin/tvoutserver:system/bin/tvoutserver \
-	vendor/samsung/galaxysplus/proprietary/bin/wlandutservice:system/bin/wlandutservice \
-	vendor/samsung/galaxysplus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-	vendor/samsung/galaxysplus/proprietary/bin/playlpm:system/bin/playlpm \
 	vendor/samsung/galaxysplus/proprietary/bin/orientationd:system/bin/orientationd \
-	vendor/samsung/galaxysplus/proprietary/bin/geomagneticd:system/bin/geomagneticd \
-	vendor/samsung/galaxysplus/proprietary/bin/rild:system/bin/rild \
-	vendor/samsung/galaxysplus/proprietary/bin/hostapd:system/bin/hostapd \
-	vendor/samsung/galaxysplus/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
-	vendor/samsung/galaxysplus/proprietary/bin/logwrapper:system/bin/logwrapper \
+	vendor/samsung/galaxysplus/proprietary/bin/playlpm:system/bin/playlpm \
 	vendor/samsung/galaxysplus/proprietary/bin/port-bridge:system/bin/port-bridge \
 	vendor/samsung/galaxysplus/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/samsung/galaxysplus/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+	vendor/samsung/galaxysplus/proprietary/bin/rild:system/bin/rild \
+	vendor/samsung/galaxysplus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+	vendor/samsung/galaxysplus/proprietary/bin/wlandutservice:system/bin/wlandutservice \
 	vendor/samsung/galaxysplus/proprietary/bin/zipalign:system/bin/zipalign 
 
 # Cameradata
@@ -80,22 +79,28 @@ PRODUCT_COPY_FILES += \
 # Camera Libs
 PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxysplus/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
-	vendor/samsung/galaxysplus/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
-	vendor/samsung/galaxysplus/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
-	vendor/samsung/galaxysplus/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libcamera.so:system/lib/libcamera.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libcamerafirmwarejni.so:system/lib/libcamerafirmwarejni.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+	vendor/samsung/galaxysplus/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libcaps.so:system/lib/libcaps.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/galaxysplus/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+	vendor/samsung/galaxysplus/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
+	vendor/samsung/galaxysplus/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libseccamera.so:system/lib/libseccamera.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libsecjpegencoder.so:system/lib/libsecjpegencoder.so 
+
+# Framework
+PRODUCT_COPY_FILES += \
+	vendor/samsung/galaxysplus/proprietary/framework/seccamera.jar:system/framework/seccamera.jar \
+	vendor/samsung/galaxysplus/proprietary/framework/sec_feature.jar:system/framework/sec_feature.jar \
+	vendor/samsung/galaxysplus/proprietary/framework/sechardware.jar:system/framework/sechardware.jar
 
 # Firmware
 PRODUCT_COPY_FILES += \
@@ -127,6 +132,7 @@ PRODUCT_COPY_FILES += \
 
 # TV-Out
 PRODUCT_COPY_FILES += \
+	vendor/samsung/galaxysplus/proprietary/bin/tvoutserver:system/bin/tvoutserver \
 	vendor/samsung/galaxysplus/proprietary/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libtvout.so:system/lib/libtvout.so \
 	vendor/samsung/galaxysplus/proprietary/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
@@ -159,7 +165,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxysplus/proprietary/bin/battery_charging:system/bin/battery_charging \
 	vendor/samsung/galaxysplus/proprietary/bin/charging_mode:system/bin/charging_mode \
 	vendor/samsung/galaxysplus/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
-	vendor/samsung/galaxysplus/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
 	vendor/samsung/galaxysplus/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
 	vendor/samsung/galaxysplus/proprietary/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
 	vendor/samsung/galaxysplus/proprietary/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
@@ -180,6 +185,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxysplus/proprietary/media/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
 	vendor/samsung/galaxysplus/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
 	vendor/samsung/galaxysplus/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
+	vendor/samsung/galaxysplus/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
 	vendor/samsung/galaxysplus/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
 	vendor/samsung/galaxysplus/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg 
 
