@@ -150,9 +150,9 @@ PRODUCT_COPY_FILES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-	vendor/samsung/galaxysplus/proprietary/etc/sec_feature.xml:system/etc/permissions/sec_feature.xml \
-	vendor/samsung/galaxysplus/proprietary/etc/sec_hardware_library.xml:system/etc/permissions/sec_hardware_library.xml \
-	vendor/samsung/galaxysplus/proprietary/etc/seccamera.xml:system/etc/permissions/seccamera.xml 
+	vendor/samsung/galaxysplus/proprietary/etc/permissions/sec_feature.xml:system/etc/permissions/sec_feature.xml \
+	vendor/samsung/galaxysplus/proprietary/etc/permissions/sec_hardware_library.xml:system/etc/permissions/sec_hardware_library.xml \
+	vendor/samsung/galaxysplus/proprietary/etc/permissions/seccamera.xml:system/etc/permissions/seccamera.xml 
 
 # Battery Charging
 PRODUCT_COPY_FILES += \
