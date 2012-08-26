@@ -112,10 +112,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxysplus/proprietary/etc/firmware/vidc_720p_mp4_enc_mc.fw:system/etc/firmware/vidc_720p_mp4_enc_mc.fw \
 	vendor/samsung/galaxysplus/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
 	vendor/samsung/galaxysplus/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-	vendor/samsung/galaxysplus/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-	vendor/samsung/galaxysplus/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/firmware/bcm4329_aps.bin \
-	vendor/samsung/galaxysplus/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/firmware/bcm4329_sta.bin \
-	vendor/samsung/galaxysplus/proprietary/etc/wifi/bcm4329_mfg.bin:system/etc/firmware/bcm4329_mfg.bin
+	vendor/samsung/galaxysplus/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw 
 
 # Camera Firmware
 PRODUCT_COPY_FILES += \
@@ -128,10 +125,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/samsung/galaxysplus/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	vendor/samsung/galaxysplus/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt
-
-# Bluetooth
-PRODUCT_COPY_FILES += \
-	vendor/samsung/galaxysplus/proprietary/bin/BCM4329B1_002.002.023.0746.0000_SS_S1-plus-38_4MHz-TEST-ONLY.hcd:system/etc/bluetooth/BCM4329B1_002.002.023.0746.0000_SS_S1-plus-38_4MHz-TEST-ONLY.hcd 
 
 # TV-Out
 PRODUCT_COPY_FILES += \
